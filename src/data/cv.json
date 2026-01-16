@@ -1,0 +1,548 @@
+{
+  "profile": {
+    "name": "Pedro Pilla",
+    "context": "career",
+    "cluster": "devops",
+    "user": "Pedro Pilla de Azevedo e Souza",
+    "k9sRev": "v0.1-beta",
+    "k8sRev": "6+ years exp",
+    "contact": {
+      "email": "pedropilla@gmail.com",
+      "github": "https://github.com/pedropilla",
+      "phone": "(+351) 910218191",
+      "location": "Sesimbra, Portugal"
+    },
+    "certifications": [
+      "Certified Kubernetes Administrator",
+      "Certified Terraform Associate"
+    ]
+  },
+  "namespaces": [
+    {
+      "name": "mindera-hsbc",
+      "displayName": "Mindera",
+      "role": "Senior Cloud Engineer",
+      "period": "Feb 2025 - Current",
+      "location": "Sesimbra, Portugal"
+    },
+    {
+      "name": "mindera-2k",
+      "displayName": "Mindera",
+      "role": "Senior Cloud Engineer",
+      "period": "Jan 2025 - Feb 2025",
+      "location": "Sesimbra, Portugal"
+    },
+    {
+      "name": "celfocus-vmo2",
+      "displayName": "Celfocus",
+      "role": "Site Reliability Engineer",
+      "period": "May 2024 - Jan 2025",
+      "location": "Sesimbra, Portugal"
+    },
+    {
+      "name": "mindera-2k",
+      "displayName": "Mindera",
+      "role": "Senior DevOps Engineer",
+      "period": "Apr 2023 - May 2024",
+      "location": "Sesimbra, Portugal"
+    },
+    {
+      "name": "foxbit",
+      "displayName": "Foxbit",
+      "role": "Senior TechLead SRE",
+      "period": "Oct 2021 - Apr 2023",
+      "location": "Sao Paulo, Brazil"
+    },
+    {
+      "name": "celk",
+      "displayName": "Celk Sistemas",
+      "role": "DevOps Support Analyst",
+      "period": "May 2021 - Oct 2021",
+      "location": "Florianopolis, Brazil"
+    },
+    {
+      "name": "vetorial",
+      "displayName": "Vetorial Internet",
+      "role": "Senior IT Support Analyst",
+      "period": "Nov 2013 - Apr 2021",
+      "location": "Rio Grande, Brazil"
+    }
+  ],
+  "pods": [
+    {
+      "namespace": "mindera-hsbc",
+      "name": "HSBC",
+      "status": "Running",
+      "ready": "1/1",
+      "restarts": 0,
+      "age": "12mo",
+      "cpu": "85%",
+      "mem": "90%",
+      "description": "Managing fintech product for HSBC with 9-member team. Full control over AWS accounts, handling DevOps/DevSecOps/Infra/Cloud responsibilities.",
+      "technologies": [
+        "AWS",
+        "Kubernetes",
+        "Kustomize",
+        "External Secrets",
+        "GitHub Actions",
+        "Terraform",
+        "Go",
+        "PHP",
+        "Node.js"
+      ],
+      "logs": [
+        {
+          "level": "INFO",
+          "message": "Refactored monolithic architecture (60+ Go/PHP/Node.js apps) from Helm to Kustomize, removing hard dependencies"
+        },
+        {
+          "level": "INFO",
+          "message": "Replaced runtime config apps with External Secrets and ConfigMaps"
+        },
+        {
+          "level": "INFO",
+          "message": "Refactored infrastructure repository from shell scripts to single Makefile"
+        },
+        {
+          "level": "INFO",
+          "message": "Migrated Terraform execution from manual to automated GitHub Actions workflow"
+        },
+        {
+          "level": "SUCCESS",
+          "message": "Reduced AWS bills by 25% in first epics by removing legacy resources"
+        },
+        {
+          "level": "SUCCESS",
+          "message": "Improved GH Actions pipelines: reduced test execution from 6min to 1min"
+        }
+      ]
+    },
+    {
+      "namespace": "mindera-2k",
+      "name": "2k.com",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "1mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Part of 9-member team resuming project from another consultancy. Responsible for all infra, monitoring and CI/CD with one colleague.",
+      "technologies": [
+        "AWS",
+        "GCP",
+        "DynamoDB",
+        "RDS",
+        "ElastiCache",
+        "EKS",
+        "SQS",
+        "SNS",
+        "Terraform",
+        "GitHub Actions",
+        "Kubernetes",
+        "Helm",
+        "Kustomize",
+        "Datadog"
+      ],
+      "logs": [
+        {
+          "level": "INFO",
+          "message": "Migrated applications from GCP to AWS"
+        },
+        {
+          "level": "INFO",
+          "message": "Improved Terraform modules"
+        },
+        {
+          "level": "SUCCESS",
+          "message": "Produced study to correctly configure auto scaling, reducing 70% resource cost"
+        }
+      ]
+    },
+    {
+      "namespace": "celfocus-vmo2",
+      "name": "VirginMediaO2",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "8mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Digital SRE team for UK telco VMO2. Responsible for monitoring, observability solutions and incident lifecycle improvement.",
+      "technologies": [
+        "Dynatrace",
+        "Splunk",
+        "GCP",
+        "Apigee",
+        "GKE",
+        "Cloud Armor",
+        "BigQuery",
+        "GitLab CI/CD",
+        "Terraform",
+        "Kubernetes"
+      ],
+      "logs": [
+        {
+          "level": "INFO",
+          "message": "Improved incident lifecycle using SRE practices: post-mortems, SLI/SLO, process automation"
+        },
+        {
+          "level": "INFO",
+          "message": "Maintained microservice apps Dynatrace GitLab monitoring pipelines, metrics, alerts, dashboards"
+        },
+        {
+          "level": "INFO",
+          "message": "Created Terraform modules to import manually created resources to IaC"
+        },
+        {
+          "level": "INFO",
+          "message": "Created custom monitoring solutions (e.g., alert when GCP updates root cert)"
+        }
+      ]
+    },
+    {
+      "namespace": "mindera-2k",
+      "name": "2k.com",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "14mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Single-handedly bootstrapped cloud infrastructure for two development teams.",
+      "technologies": [
+        "AWS",
+        "GCP",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB",
+        "RDS",
+        "ElastiCache",
+        "EKS",
+        "GKE",
+        "Jenkins",
+        "Terraform",
+        "GitHub Actions",
+        "Kubernetes",
+        "Helm",
+        "Kustomize"
+      ],
+      "logs": [
+        {
+          "level": "SUCCESS",
+          "message": "Independently enabled two development teams to deploy and scale their products"
+        },
+        {
+          "level": "INFO",
+          "message": "Provided comprehensive SDLC, IaC and automation support"
+        },
+        {
+          "level": "INFO",
+          "message": "Participated in recruitment processes, developing technical assessments"
+        }
+      ]
+    },
+    {
+      "namespace": "foxbit",
+      "name": "crypto-exchange-platform",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "18mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "SRE/Infra/DevOps team for crypto exchange with ~800k customers and 10k RPS average. Led team of 4.",
+      "technologies": [
+        "AWS",
+        "EC2",
+        "ECS",
+        "EKS",
+        "RDS",
+        "SQS",
+        "SNS",
+        "S3",
+        "Lambda",
+        "Grafana",
+        "Prometheus",
+        "Datadog",
+        "Terraform",
+        "Teleport",
+        "Vault",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "logs": [
+        {
+          "level": "SUCCESS",
+          "message": "Reduced AWS infrastructure costs by 40% through Kubernetes optimization and autoscaling"
+        },
+        {
+          "level": "INFO",
+          "message": "Designed and implemented comprehensive disaster recovery plan with multiple backup sites"
+        },
+        {
+          "level": "INFO",
+          "message": "Led technical interviews and assessments for SRE team expansion"
+        },
+        {
+          "level": "INFO",
+          "message": "Migrated ECS to EKS"
+        }
+      ]
+    },
+    {
+      "namespace": "celk",
+      "name": "health-system-infrastructure",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "5mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "SRE/Infra/DevOps team for Java software house specialized in public health system solutions for Brazil's government.",
+      "technologies": [
+        "AWS",
+        "EC2",
+        "RDS",
+        "SQS",
+        "SNS",
+        "S3",
+        "EKS",
+        "Lambda",
+        "ELK Stack",
+        "Terraform",
+        "Jenkins"
+      ],
+      "logs": [
+        {
+          "level": "INFO",
+          "message": "Managed AWS organization structure and multi-account strategy"
+        },
+        {
+          "level": "INFO",
+          "message": "Created and maintained IaC templates and automation scripts"
+        },
+        {
+          "level": "INFO",
+          "message": "Provided on-call support for critical infrastructure issues"
+        }
+      ]
+    },
+    {
+      "namespace": "vetorial",
+      "name": "gpon-network-management",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "7y5mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Technical lead for GPON network infrastructure at regional ISP with 80K customers.",
+      "technologies": [
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "PHP",
+        "MongoDB",
+        "MySQL",
+        "Nginx",
+        "Zabbix",
+        "SNMP",
+        "GPON"
+      ],
+      "logs": [
+        {
+          "level": "SUCCESS",
+          "message": "Single-handedly managed GPON logical network (ZTE & Parks) serving 30K customers for 4 years"
+        },
+        {
+          "level": "SUCCESS",
+          "message": "Developed custom Network Management System with PHP API, MongoDB, MySQL"
+        },
+        {
+          "level": "SUCCESS",
+          "message": "Built Telegram bot for field technicians, reducing support tickets by 50%"
+        },
+        {
+          "level": "INFO",
+          "message": "Implemented Zabbix monitoring for 2K+ devices with custom alerting"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "kubernetes",
+      "status": "Ready",
+      "role": "Containers & Orchestration",
+      "version": "Expert",
+      "pods": 15,
+      "cpu": "95%",
+      "mem": "90%",
+      "age": "4+ years"
+    },
+    {
+      "name": "docker",
+      "status": "Ready",
+      "role": "Containers & Orchestration",
+      "version": "Expert",
+      "pods": 12,
+      "cpu": "90%",
+      "mem": "85%",
+      "age": "6+ years"
+    },
+    {
+      "name": "terraform",
+      "status": "Ready",
+      "role": "Infrastructure as Code",
+      "version": "Expert",
+      "pods": 14,
+      "cpu": "95%",
+      "mem": "92%",
+      "age": "4+ years"
+    },
+    {
+      "name": "aws",
+      "status": "Ready",
+      "role": "Cloud Platforms",
+      "version": "Expert",
+      "pods": 18,
+      "cpu": "92%",
+      "mem": "90%",
+      "age": "5+ years"
+    },
+    {
+      "name": "gcp",
+      "status": "Ready",
+      "role": "Cloud Platforms",
+      "version": "Advanced",
+      "pods": 8,
+      "cpu": "75%",
+      "mem": "70%",
+      "age": "3+ years"
+    },
+    {
+      "name": "github-actions",
+      "status": "Ready",
+      "role": "CI/CD",
+      "version": "Expert",
+      "pods": 10,
+      "cpu": "88%",
+      "mem": "85%",
+      "age": "4+ years"
+    },
+    {
+      "name": "gitlab-ci",
+      "status": "Ready",
+      "role": "CI/CD",
+      "version": "Advanced",
+      "pods": 5,
+      "cpu": "70%",
+      "mem": "65%",
+      "age": "2+ years"
+    },
+    {
+      "name": "jenkins",
+      "status": "Ready",
+      "role": "CI/CD",
+      "version": "Advanced",
+      "pods": 6,
+      "cpu": "72%",
+      "mem": "68%",
+      "age": "3+ years"
+    },
+    {
+      "name": "prometheus",
+      "status": "Ready",
+      "role": "Monitoring & Observability",
+      "version": "Expert",
+      "pods": 8,
+      "cpu": "85%",
+      "mem": "80%",
+      "age": "4+ years"
+    },
+    {
+      "name": "grafana",
+      "status": "Ready",
+      "role": "Monitoring & Observability",
+      "version": "Expert",
+      "pods": 8,
+      "cpu": "85%",
+      "mem": "82%",
+      "age": "4+ years"
+    },
+    {
+      "name": "dynatrace",
+      "status": "Ready",
+      "role": "Monitoring & Observability",
+      "version": "Advanced",
+      "pods": 4,
+      "cpu": "75%",
+      "mem": "70%",
+      "age": "1+ year"
+    },
+    {
+      "name": "datadog",
+      "status": "Ready",
+      "role": "Monitoring & Observability",
+      "version": "Advanced",
+      "pods": 5,
+      "cpu": "72%",
+      "mem": "68%",
+      "age": "2+ years"
+    },
+    {
+      "name": "python",
+      "status": "Ready",
+      "role": "Languages",
+      "version": "Advanced",
+      "pods": 6,
+      "cpu": "75%",
+      "mem": "70%",
+      "age": "4+ years"
+    },
+    {
+      "name": "bash",
+      "status": "Ready",
+      "role": "Languages",
+      "version": "Expert",
+      "pods": 10,
+      "cpu": "90%",
+      "mem": "88%",
+      "age": "10+ years"
+    },
+    {
+      "name": "vault",
+      "status": "Ready",
+      "role": "Security",
+      "version": "Advanced",
+      "pods": 4,
+      "cpu": "78%",
+      "mem": "75%",
+      "age": "3+ years"
+    },
+    {
+      "name": "helm",
+      "status": "Ready",
+      "role": "Containers & Orchestration",
+      "version": "Expert",
+      "pods": 12,
+      "cpu": "88%",
+      "mem": "85%",
+      "age": "4+ years"
+    },
+    {
+      "name": "kustomize",
+      "status": "Ready",
+      "role": "Containers & Orchestration",
+      "version": "Expert",
+      "pods": 8,
+      "cpu": "85%",
+      "mem": "82%",
+      "age": "2+ years"
+    }
+  ],
+  "secret": {
+    "quote": "Infrastructure should be cattle, not pets.\nBut your career? That's a whole different cluster.",
+    "author": "Pedro Pilla"
+  }
+}

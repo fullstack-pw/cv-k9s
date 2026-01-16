@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
+
+  --color-k9s-bg: #0a0e14;
+  --color-k9s-bg-light: #151b23;
+  --color-k9s-border: #2d3748;
+  --color-k9s-text: #e2e8f0;
+  --color-k9s-text-dim: #718096;
+  --color-k9s-cyan: #00d9ff;
+  --color-k9s-green: #48bb78;
+  --color-k9s-yellow: #ecc94b;
+  --color-k9s-red: #fc8181;
+  --color-k9s-blue: #63b3ed;
+  --color-k9s-purple: #b794f4;
+  --color-k9s-orange: #ed8936;
+}
+
+@layer base {
+  html, body, #root {
+    @apply h-full w-full m-0 p-0 overflow-hidden;
+    background-color: var(--color-k9s-bg);
+    color: var(--color-k9s-text);
+    font-family: var(--font-mono);
+  }
+}
