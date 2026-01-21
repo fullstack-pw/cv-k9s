@@ -23,33 +23,33 @@ export function Header({ profile, currentNamespace }: HeaderProps) {
     <div className="flex justify-between p-2 text-sm">
       <div className="flex flex-col gap-0.5">
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">Context: </span>
-          <span className="text-[color:var(--color-k9s-cyan)]">{profile.context}</span>
+          <span className="text-[color:var(--color-k9s-gold)]">Context: </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">{profile.context}</span>
           <span className="text-[color:var(--color-k9s-text-dim)]"> [RW]</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">Cluster: </span>
-          <span className="text-[color:var(--color-k9s-text)]">{profile.cluster}</span>
+          <span className="text-[color:var(--color-k9s-gold)]">Cluster: </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">{profile.cluster}</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">User:    </span>
-          <span className="text-[color:var(--color-k9s-text)]">{profile.user}</span>
+          <span className="text-[color:var(--color-k9s-gold)]">User:    </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">{profile.user}</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">K9s Rev: </span>
-          <span className="text-[color:var(--color-k9s-text)]">{profile.k9sRev}</span>
+          <span className="text-[color:var(--color-k9s-gold)]">K9s Rev: </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">{profile.k9sRev}</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">K8s Rev: </span>
-          <span className="text-[color:var(--color-k9s-text)]">{profile.k8sRev}</span>
+          <span className="text-[color:var(--color-k9s-gold)]">K8s Rev: </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">{profile.k8sRev}</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">CPU:     </span>
-          <span className="text-[color:var(--color-k9s-green)]">38% (100Hz N-cores superconscious quantumn brain)</span>
+          <span className="text-[color:var(--color-k9s-gold)]">CPU:     </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">38% (100Hz N-cores superconscious quantumn brain)</span>
         </div>
         <div>
-          <span className="text-[color:var(--color-k9s-text-dim)]">MEM:     </span>
-          <span className="text-[color:var(--color-k9s-green)]">38% (2.5PB ECC)</span>
+          <span className="text-[color:var(--color-k9s-gold)]">MEM:     </span>
+          <span className="text-[color:var(--color-k9s-text)] font-bold">38% (2.5PB ECC)</span>
         </div>
       </div>
 
