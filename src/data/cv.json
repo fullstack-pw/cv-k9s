@@ -21,28 +21,57 @@
     {
       "name": "mindera",
       "displayName": "Mindera",
-      "role": "Senior Cloud Engineer",
+      "role": "Sr Cloud Engineer",
       "period": "May 2023 - Current",
       "location": "Sesimbra, Portugal"
     },
     {
       "name": "foxbit",
       "displayName": "Foxbit",
-      "role": "Senior TechLead SRE",
-      "period": "May 2021 - Apr 2023",
+      "role": "Sr TechLead Site Reliability Engineer",
+      "period": "May 2022 - Apr 2023",
+      "location": "Sao Paulo, Brazil"
+    },
+    {
+      "name": "foxbit",
+      "displayName": "Foxbit",
+      "role": "Sr Site Reliability Engineer",
+      "period": "Mar 2022 - May 2022",
+      "location": "Sao Paulo, Brazil"
+    },
+    {
+      "name": "foxbit",
+      "displayName": "Foxbit",
+      "role": "Site Reliability Engineer",
+      "period": "Oct 2021 - Mar 2022",
       "location": "Sao Paulo, Brazil"
     },
     {
       "name": "vetorial",
       "displayName": "Vetorial Internet",
       "role": "Network Administrator",
-      "period": "Nov 2013 - Apr 2021",
+      "period": "Nov 2012 - Oct 2021",
+      "location": "Rio Grande, Brazil"
+    },
+    {
+      "name": "vetorial",
+      "displayName": "Vetorial Internet",
+      "role": "Network Engineer",
+      "period": "Mar 2011 - Nov 2012",
+      "location": "Rio Grande, Brazil"
+    },
+    {
+      "name": "vetorial",
+      "displayName": "Vetorial Internet",
+      "role": "Help Desk",
+      "period": "Feb 2009 - Feb 2011",
       "location": "Rio Grande, Brazil"
     }
   ],
   "pods": [
     {
       "namespace": "mindera",
+      "role": "Sr Cloud Engineer",
       "name": "Cloud Engineer",
       "status": "Running",
       "ready": "1/1",
@@ -91,11 +120,110 @@
     },
     {
       "namespace": "foxbit",
-      "name": "Site Reliability Engineer",
+      "role": "Sr TechLead Site Reliability Engineer",
+      "name": "Senior TechLead SRE",
       "status": "Completed",
       "ready": "0/1",
       "restarts": 0,
-      "age": "1y7mo",
+      "age": "1y",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "SRE/Infra/DevOps team for crypto exchange with ~800k customers and 10k RPS average. Led team of 4.",
+      "technologies": [
+        "AWS",
+        "EC2",
+        "ECS",
+        "EKS",
+        "RDS",
+        "SQS",
+        "SNS",
+        "S3",
+        "Lambda",
+        "Grafana",
+        "Prometheus",
+        "Datadog",
+        "Terraform",
+        "Teleport",
+        "Vault",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "logs": [
+        {
+          "level": "SUCCESS",
+          "message": "Reduced AWS infrastructure costs by 40% through Kubernetes optimization and autoscaling"
+        },
+        {
+          "level": "INFO",
+          "message": "Designed and implemented comprehensive disaster recovery plan with multiple backup sites"
+        },
+        {
+          "level": "INFO",
+          "message": "Led technical interviews and assessments for SRE team expansion"
+        },
+        {
+          "level": "INFO",
+          "message": "Migrated ECS to EKS"
+        }
+      ]
+    },
+    {
+      "namespace": "foxbit",
+      "role": "Sr Site Reliability Engineer",
+      "name": "Senior SRE",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "3mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "SRE/Infra/DevOps team for crypto exchange with ~800k customers and 10k RPS average. Led team of 4.",
+      "technologies": [
+        "AWS",
+        "EC2",
+        "ECS",
+        "EKS",
+        "RDS",
+        "SQS",
+        "SNS",
+        "S3",
+        "Lambda",
+        "Grafana",
+        "Prometheus",
+        "Datadog",
+        "Terraform",
+        "Teleport",
+        "Vault",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "logs": [
+        {
+          "level": "SUCCESS",
+          "message": "Reduced AWS infrastructure costs by 40% through Kubernetes optimization and autoscaling"
+        },
+        {
+          "level": "INFO",
+          "message": "Designed and implemented comprehensive disaster recovery plan with multiple backup sites"
+        },
+        {
+          "level": "INFO",
+          "message": "Led technical interviews and assessments for SRE team expansion"
+        },
+        {
+          "level": "INFO",
+          "message": "Migrated ECS to EKS"
+        }
+      ]
+    },
+    {
+      "namespace": "foxbit",
+      "role": "Site Reliability Engineer",
+      "name": "SRE",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "7mo",
       "cpu": "0%",
       "mem": "0%",
       "description": "SRE/Infra/DevOps team for crypto exchange with ~800k customers and 10k RPS average. Led team of 4.",
@@ -139,11 +267,12 @@
     },
     {
       "namespace": "vetorial",
+      "role": "Network Administrator",
       "name": "Network Administrator",
       "status": "Completed",
       "ready": "0/1",
       "restarts": 0,
-      "age": "12y9mo",
+      "age": "9y",
       "cpu": "0%",
       "mem": "0%",
       "description": "Optical fiber (GPON) network administrator at regional ISP with 80K customers.",
@@ -177,6 +306,43 @@
           "message": "Implemented Zabbix monitoring for 2K+ devices with custom alerting"
         }
       ]
+    },
+    {
+      "namespace": "vetorial",
+      "role": "Network Engineer",
+      "name": "Network Engineer",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "1y9mo",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Tech support to field engineers, distribution network equipment config/mgmt, servers config/mgmt/troubleshoot.",
+      "technologies": [
+        "Linux",
+        "FreeBSD",
+        "Apache",
+        "Mikrotik"
+      ],
+      "logs": []
+    },
+    {
+      "namespace": "vetorial",
+      "role": "Help Desk",
+      "name": "Help Desk",
+      "status": "Completed",
+      "ready": "0/1",
+      "restarts": 0,
+      "age": "2y",
+      "cpu": "0%",
+      "mem": "0%",
+      "description": "Tech support to final users.",
+      "technologies": [
+        "Home Routers config/troubleshoot",
+        "ADSL Modems config/troubleshoot",
+        "LAN config/troubleshoot"
+      ],
+      "logs": []
     }
   ],
   "nodes": [

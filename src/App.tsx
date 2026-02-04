@@ -25,7 +25,7 @@ function App() {
 
   const selectedPod = data.pods[selectedPodIndex];
   const selectedNamespace = data.namespaces.find(
-    (ns) => ns.name === selectedPod?.namespace
+    (ns) => ns.name === selectedPod?.namespace && ns.role === selectedPod?.role
   );
 
   const navigateTo = useCallback((newView: View) => {

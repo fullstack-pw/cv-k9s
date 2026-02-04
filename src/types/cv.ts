@@ -29,6 +29,7 @@ export interface LogEntry {
 
 export interface Pod {
   namespace: string;
+  role: string;
   name: string;
   status: 'Running' | 'Completed' | 'Error';
   ready: string;
