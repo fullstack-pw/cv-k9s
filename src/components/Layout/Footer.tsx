@@ -17,7 +17,7 @@ export function Footer({ view, breadcrumb = [] }: FooterProps) {
   };
 
   return (
-    <div className="p-2 text-sm text-[color:var(--color-k9s-text-dim)] border-t border-[color:var(--color-k9s-border)]">
+    <div className="p-2 text-sm text-[color:var(--color-k9s-text-dim)]">
       <span className="text-[color:var(--color-k9s-cyan)]">&lt;{viewLabels[view]}&gt;</span>
       {breadcrumb.map((item, idx) => (
         <span key={idx}>

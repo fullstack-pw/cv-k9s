@@ -19,66 +19,38 @@
   },
   "namespaces": [
     {
-      "name": "mindera-hsbc",
+      "name": "mindera",
       "displayName": "Mindera",
       "role": "Senior Cloud Engineer",
-      "period": "Feb 2025 - Current",
-      "location": "Sesimbra, Portugal"
-    },
-    {
-      "name": "mindera-2k",
-      "displayName": "Mindera",
-      "role": "Senior Cloud Engineer",
-      "period": "Jan 2025 - Feb 2025",
-      "location": "Sesimbra, Portugal"
-    },
-    {
-      "name": "celfocus-vmo2",
-      "displayName": "Celfocus",
-      "role": "Site Reliability Engineer",
-      "period": "May 2024 - Jan 2025",
-      "location": "Sesimbra, Portugal"
-    },
-    {
-      "name": "mindera-2k",
-      "displayName": "Mindera",
-      "role": "Senior DevOps Engineer",
-      "period": "Apr 2023 - May 2024",
+      "period": "May 2023 - Current",
       "location": "Sesimbra, Portugal"
     },
     {
       "name": "foxbit",
       "displayName": "Foxbit",
       "role": "Senior TechLead SRE",
-      "period": "Oct 2021 - Apr 2023",
+      "period": "May 2021 - Apr 2023",
       "location": "Sao Paulo, Brazil"
-    },
-    {
-      "name": "celk",
-      "displayName": "Celk Sistemas",
-      "role": "DevOps Support Analyst",
-      "period": "May 2021 - Oct 2021",
-      "location": "Florianopolis, Brazil"
     },
     {
       "name": "vetorial",
       "displayName": "Vetorial Internet",
-      "role": "Senior IT Support Analyst",
+      "role": "Network Administrator",
       "period": "Nov 2013 - Apr 2021",
       "location": "Rio Grande, Brazil"
     }
   ],
   "pods": [
     {
-      "namespace": "mindera-hsbc",
-      "name": "HSBC",
+      "namespace": "mindera",
+      "name": "Cloud Engineer",
       "status": "Running",
       "ready": "1/1",
       "restarts": 0,
-      "age": "12mo",
+      "age": "2y10mo",
       "cpu": "85%",
       "mem": "90%",
-      "description": "Managing fintech product for HSBC with 9-member team. Full control over AWS accounts, handling DevOps/DevSecOps/Infra/Cloud responsibilities.",
+      "description": "Participated in multiple teams (projects), as devops engineer inserted in dev teams and as devops/sre/devsecops/sysadmin on infra teams.",
       "technologies": [
         "AWS",
         "Kubernetes",
@@ -118,136 +90,12 @@
       ]
     },
     {
-      "namespace": "mindera-2k",
-      "name": "2k.com",
-      "status": "Completed",
-      "ready": "0/1",
-      "restarts": 0,
-      "age": "1mo",
-      "cpu": "0%",
-      "mem": "0%",
-      "description": "Part of 9-member team resuming project from another consultancy. Responsible for all infra, monitoring and CI/CD with one colleague.",
-      "technologies": [
-        "AWS",
-        "GCP",
-        "DynamoDB",
-        "RDS",
-        "ElastiCache",
-        "EKS",
-        "SQS",
-        "SNS",
-        "Terraform",
-        "GitHub Actions",
-        "Kubernetes",
-        "Helm",
-        "Kustomize",
-        "Datadog"
-      ],
-      "logs": [
-        {
-          "level": "INFO",
-          "message": "Migrated applications from GCP to AWS"
-        },
-        {
-          "level": "INFO",
-          "message": "Improved Terraform modules"
-        },
-        {
-          "level": "SUCCESS",
-          "message": "Produced study to correctly configure auto scaling, reducing 70% resource cost"
-        }
-      ]
-    },
-    {
-      "namespace": "celfocus-vmo2",
-      "name": "VirginMediaO2",
-      "status": "Completed",
-      "ready": "0/1",
-      "restarts": 0,
-      "age": "8mo",
-      "cpu": "0%",
-      "mem": "0%",
-      "description": "Digital SRE team for UK telco VMO2. Responsible for monitoring, observability solutions and incident lifecycle improvement.",
-      "technologies": [
-        "Dynatrace",
-        "Splunk",
-        "GCP",
-        "Apigee",
-        "GKE",
-        "Cloud Armor",
-        "BigQuery",
-        "GitLab CI/CD",
-        "Terraform",
-        "Kubernetes"
-      ],
-      "logs": [
-        {
-          "level": "INFO",
-          "message": "Improved incident lifecycle using SRE practices: post-mortems, SLI/SLO, process automation"
-        },
-        {
-          "level": "INFO",
-          "message": "Maintained microservice apps Dynatrace GitLab monitoring pipelines, metrics, alerts, dashboards"
-        },
-        {
-          "level": "INFO",
-          "message": "Created Terraform modules to import manually created resources to IaC"
-        },
-        {
-          "level": "INFO",
-          "message": "Created custom monitoring solutions (e.g., alert when GCP updates root cert)"
-        }
-      ]
-    },
-    {
-      "namespace": "mindera-2k",
-      "name": "2k.com",
-      "status": "Completed",
-      "ready": "0/1",
-      "restarts": 0,
-      "age": "14mo",
-      "cpu": "0%",
-      "mem": "0%",
-      "description": "Single-handedly bootstrapped cloud infrastructure for two development teams.",
-      "technologies": [
-        "AWS",
-        "GCP",
-        "API Gateway",
-        "Lambda",
-        "DynamoDB",
-        "RDS",
-        "ElastiCache",
-        "EKS",
-        "GKE",
-        "Jenkins",
-        "Terraform",
-        "GitHub Actions",
-        "Kubernetes",
-        "Helm",
-        "Kustomize"
-      ],
-      "logs": [
-        {
-          "level": "SUCCESS",
-          "message": "Independently enabled two development teams to deploy and scale their products"
-        },
-        {
-          "level": "INFO",
-          "message": "Provided comprehensive SDLC, IaC and automation support"
-        },
-        {
-          "level": "INFO",
-          "message": "Participated in recruitment processes, developing technical assessments"
-        }
-      ]
-    },
-    {
       "namespace": "foxbit",
-      "name": "crypto-exchange-platform",
+      "name": "Site Reliability Engineer",
       "status": "Completed",
       "ready": "0/1",
       "restarts": 0,
-      "age": "18mo",
+      "age": "1y7mo",
       "cpu": "0%",
       "mem": "0%",
       "description": "SRE/Infra/DevOps team for crypto exchange with ~800k customers and 10k RPS average. Led team of 4.",
@@ -290,53 +138,15 @@
       ]
     },
     {
-      "namespace": "celk",
-      "name": "health-system-infrastructure",
-      "status": "Completed",
-      "ready": "0/1",
-      "restarts": 0,
-      "age": "5mo",
-      "cpu": "0%",
-      "mem": "0%",
-      "description": "SRE/Infra/DevOps team for Java software house specialized in public health system solutions for Brazil's government.",
-      "technologies": [
-        "AWS",
-        "EC2",
-        "RDS",
-        "SQS",
-        "SNS",
-        "S3",
-        "EKS",
-        "Lambda",
-        "ELK Stack",
-        "Terraform",
-        "Jenkins"
-      ],
-      "logs": [
-        {
-          "level": "INFO",
-          "message": "Managed AWS organization structure and multi-account strategy"
-        },
-        {
-          "level": "INFO",
-          "message": "Created and maintained IaC templates and automation scripts"
-        },
-        {
-          "level": "INFO",
-          "message": "Provided on-call support for critical infrastructure issues"
-        }
-      ]
-    },
-    {
       "namespace": "vetorial",
-      "name": "gpon-network-management",
+      "name": "Network Administrator",
       "status": "Completed",
       "ready": "0/1",
       "restarts": 0,
-      "age": "7y5mo",
+      "age": "12y9mo",
       "cpu": "0%",
       "mem": "0%",
-      "description": "Technical lead for GPON network infrastructure at regional ISP with 80K customers.",
+      "description": "Optical fiber (GPON) network administrator at regional ISP with 80K customers.",
       "technologies": [
         "Linux",
         "Docker",

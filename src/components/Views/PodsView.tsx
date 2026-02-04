@@ -1,6 +1,5 @@
 import type { Pod, Namespace } from '../../types/cv';
 import { Table } from '../Terminal';
-import { StatusIndicator } from '../Terminal';
 
 interface PodsViewProps {
   pods: Pod[];
@@ -14,16 +13,18 @@ export function PodsView({ pods, namespaces, selectedIndex }: PodsViewProps) {
     return ns?.displayName || nsName;
   };
 
+  const getRowStatus = (pod: Pod) => {
+    if (pod.status === 'Running') return 'running' as const;
+    if (pod.status === 'Completed') return 'completed' as const;
+    return 'default' as const;
+  };
+
   const columns = [
     {
       key: 'namespace' as const,
       header: 'NAMESPACE',
       width: 'w-48',
-      render: (pod: Pod) => (
-        <span className="text-[color:var(--color-k9s-purple)]">
-          {getNamespaceDisplay(pod.namespace)}
-        </span>
-      ),
+      render: (pod: Pod) => getNamespaceDisplay(pod.namespace),
     },
     {
       key: 'name' as const,
@@ -39,7 +40,6 @@ export function PodsView({ pods, namespaces, selectedIndex }: PodsViewProps) {
       key: 'status' as const,
       header: 'STATUS',
       width: 'w-24',
-      render: (pod: Pod) => <StatusIndicator status={pod.status} />,
     },
     {
       key: 'restarts' as const,
@@ -50,21 +50,11 @@ export function PodsView({ pods, namespaces, selectedIndex }: PodsViewProps) {
       key: 'cpu' as const,
       header: 'CPU',
       width: 'w-16',
-      render: (pod: Pod) => (
-        <span className={pod.status === 'Running' ? 'text-[color:var(--color-k9s-green)]' : 'text-[color:var(--color-k9s-text-dim)]'}>
-          {pod.cpu}
-        </span>
-      ),
     },
     {
       key: 'mem' as const,
       header: 'MEM',
       width: 'w-16',
-      render: (pod: Pod) => (
-        <span className={pod.status === 'Running' ? 'text-[color:var(--color-k9s-blue)]' : 'text-[color:var(--color-k9s-text-dim)]'}>
-          {pod.mem}
-        </span>
-      ),
     },
     {
       key: 'age' as const,
@@ -79,6 +69,7 @@ export function PodsView({ pods, namespaces, selectedIndex }: PodsViewProps) {
       data={pods}
       selectedIndex={selectedIndex}
       title={`pods(all)[${pods.length}]`}
+      getRowStatus={getRowStatus}
     />
   );
 }
